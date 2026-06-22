@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build SFML Chess Project",
+            "command": "g++",
+            "args": [
+                    "main.cpp",
+                    "Renderer.cpp",
+                    "Game.cpp",
+                    "Board.cpp",
+                    "Pawn.cpp",
+                    "Knight.cpp",
+                    "Bishop.cpp",
+                    "Rook.cpp",
+                    "Queen.cpp",
+                    "King.cpp",
+                    "-o",
+                    "chess.exe",
+                    "-DSFML_STATIC",
+                    "-IC:\\Users\\Keshav Raj\\Desktop\\SFML\\SFML-3.1.0\\include",
+                    "-LC:\\Users\\Keshav Raj\\Desktop\\SFML\\SFML-3.1.0\\lib",
+                    "-lsfml-graphics-s-d",
+                    "-lsfml-window-s-d",
+                    "-lsfml-system-s-d",
+                    "-lopengl32",
+                    "-lgdi32",
+                    "-lwinmm",
+                    "-static-libstdc++",
+                    "-static-libgcc"
+                ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compiles the SFML game statically without DLL mismatches."
+        }
+    ]
+}
