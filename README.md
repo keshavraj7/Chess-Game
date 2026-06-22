@@ -34,6 +34,23 @@ The project was built with a strong focus on **Object-Oriented Programming (OOP)
 
 ---
 
+## Download and Run
+
+1. Go to the **Releases** section of this repository.
+2. Download the latest release (`Chess-Game-v1.0.zip`).
+3. Extract the ZIP file.
+4. Ensure that both:
+
+   * `chess.exe`
+   * `assets/` folder
+
+   remain in the same directory.
+5. Run `chess.exe` to start the game.
+
+**Note:** The game requires the `assets` folder to load piece images and other resources correctly.
+
+---
+
 ## Object-Oriented Programming Concepts Used
 
 This project was designed using OOP principles to keep the code modular, maintainable, and extensible.
@@ -169,8 +186,6 @@ Through this project I gained practical experience with:
 ## Future Improvements
 
 - Stronger AI evaluation function
-- Move ordering optimizations
-- Transposition tables
 - Opening book support
 - Move history panel
 - Undo/Redo functionality
