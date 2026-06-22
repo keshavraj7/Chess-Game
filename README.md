@@ -151,7 +151,6 @@ Through this project I gained practical experience with:
 
 ## Screenshots
 
-(Add screenshots here)
 
 ### Game Board
 
